@@ -1,2 +1,2 @@
 # real-portfolio
-umar-real-portfolio.netlify.app
+https://umar-real-portfolio.netlify.app/
