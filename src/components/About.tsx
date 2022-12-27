@@ -35,7 +35,7 @@ const About = () => {
                     <h2 className="capitalize text-left text-4xl z-100 ">hi! i'm umar arshad</h2>
                 </div>
                 <p className="capitalize text-gray-400 text-lg max-w-[30rem]">Love to make creative animational websites.Create beautiful websites that can scale with modern technologies.</p>
-                <span className="text-blue-600 text-xl my-4 cursor-pointer">Checkout my resume</span>
+                <a href='/umar-resume.pdf' download className="text-blue-600 text-xl my-4 cursor-pointer" >Checkout my resume</a>
                 <div className="flex space-x-4 py-4 items-center">
                     <div className=" w-16 h-16 rounded-full bg-slate-800 flex justify-center items-center cursor-pointer">
                         <a href="https://twitter.com/muhamma64170631" target="_blank">
