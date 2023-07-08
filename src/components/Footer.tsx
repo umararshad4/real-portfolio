@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className="text-white flex-col flex  justify-center items-center gap-x-32 min-h-[70vh] space-y-8">
+        <footer className="text-white px-12 md:px-8 flex-col flex  justify-center items-center gap-x-32 min-h-[70vh] space-y-8">
             <div className="flex space-x-4">
                 <div className="w-16 h-16 rounded-full bg-slate-800 flex justify-center items-center cursor-pointer">
                     <a href="https://github.com/umararshad4" target="_blank">
