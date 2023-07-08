@@ -28,7 +28,7 @@ const Services = () => {
                     <h1 className="text-5xl font-black tracking-wide">My services</h1>
                 </div>
                 <div
-                    className="my-12 flex justify-between w-full items-center h-full">
+                    className="my-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-40">
                     <div
                         className="space-y-2 ">
                         <div className="">
