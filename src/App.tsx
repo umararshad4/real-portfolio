@@ -7,7 +7,7 @@ import Services from "./components/Services";
 
 const App = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black overflow-x-hidden">
       <section className="max-w-5xl mx-auto">
         <Navbar />
         <Hero />

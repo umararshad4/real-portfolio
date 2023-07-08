@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <nav className="flex justify-between text-white items-center">
+        <nav className="flex justify-between px-20 text-white items-center">
             <div className="flex items-center py-12 space-x-2 font-sans font-semibold text-xl">
                 <img src="/umar.jpg" alt="umar profile pic" className="h-12 w-12 rounded-full" />
                 <h3>Umar Arshad</h3>
