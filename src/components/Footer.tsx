@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
             <h2 className="font-semibold text-5xl">contact us</h2>
             <h2 className="text-xl text-blue-600">mumararshad4444@gmail.com</h2>
-            <p>Copyright ©2022 All rights reserved | This template is made with  by Colorlib</p>
+            <p>Copyright ©2023 All rights reserved | This template is made with  by Colorlib</p>
         </footer>
     )
 }
