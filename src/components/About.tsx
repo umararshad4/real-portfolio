@@ -36,7 +36,7 @@ const About = () => {
                     <h2 className="capitalize text-center md:text-left text-md sm:text-xl lg:text-4xl z-100 ">hi! i'm umar arshad</h2>
                 </div>
                 <div>
-                    <p className="capitalize text-gray-400 text-center text-sm sm:text-md lg:text-lg max-w-[30rem]">Love to make creative animational websites.Create beautiful websites that can scale with modern technologies.</p>
+                    <p className="capitalize text-gray-400 text-center text-sm sm:text-md lg:text-lg max-w-[30rem]">Love to make creative animational website.Create beautiful websites that can scale with modern technologies.</p>
                     <a href='/umar-resume.pdf' download className="text-blue-600 text-xl my-4 cursor-pointer" >Download Resume</a>
                 </div>
                 <div className="flex justify-center space-x-4 py-4 md:items-center">
