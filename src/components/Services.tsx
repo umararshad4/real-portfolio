@@ -32,25 +32,25 @@ const Services = () => {
                     <div
                         className="space-y-2 ">
                         <div className="">
-                            <img src="/mern.png" alt="mern stack" className="h-20 w-40 rounded-lg " />
+                            <img src="/mern.png" alt="mern stack" className="h-20 w-40 rounded-lg object-cover" />
                         </div>
                         <h2 className="uppercase text-2xl font-semibold  text-blue-600">mern stack</h2>
-                        <h2 className="capitalize text-2xl font-semibold ">fullstack development</h2>
+                        <h2 className="capitalize text-2xl font-semibold ">fullstack </h2>
                         <h2 className="capitalize text-2xl font-semibold ">responsive design</h2>
                     </div>
                     <div
                         className="space-y-1">
                         <div className="">
-                            <img src="/next.png" alt="next js" className="h-24 w-40 rounded-lg" />
+                            <img src="/next.png" alt="next js" className="h-24 w-40 rounded-lg object-cover" />
                         </div>
                         <h2 className="uppercase text-2xl font-semibold  text-blue-600">nextjs</h2>
-                        <h2 className="capitalize text-2xl font-semibold ">fullstack development</h2>
+                        <h2 className="capitalize text-2xl font-semibold ">fullstack </h2>
                         <h2 className="capitalize text-2xl font-semibold ">responsive design</h2>
                     </div>
                     <div
                         className="space-y-1">
                         <div className="">
-                            <img src="typescript.png" alt="python" className="h-28 w-40 rounded-lg " />
+                            <img src="typescript.png" alt="python" className="h-28 w-40 rounded-lg object-cover" />
                         </div>
                         <h2 className="uppercase text-2xl font-semibold  text-blue-600">typescript</h2>
                         <h2 className="capitalize text-2xl font-semibold ">type safety</h2>
