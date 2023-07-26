@@ -50,11 +50,11 @@ const Services = () => {
                     <div
                         className="space-y-1">
                         <div className="">
-                            <img src="python.png" alt="python" className="h-28 w-40 rounded-lg " />
+                            <img src="typescript.png" alt="python" className="h-28 w-40 rounded-lg " />
                         </div>
-                        <h2 className="uppercase text-2xl font-semibold  text-blue-600">python</h2>
-                        <h2 className="capitalize text-2xl font-semibold ">automation</h2>
-                        <h2 className="capitalize text-2xl font-semibold ">web scraping</h2>
+                        <h2 className="uppercase text-2xl font-semibold  text-blue-600">typescript</h2>
+                        <h2 className="capitalize text-2xl font-semibold ">type safety</h2>
+                        <h2 className="capitalize text-2xl font-semibold ">safe code</h2>
                     </div>
                 </div>
             </motion.section>
