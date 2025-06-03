@@ -6,6 +6,12 @@ const reuseableProjectVariants = {
     visible: { opacity: 1, translateY: 0, transition: { duration: 2 } },
     hidden: { opacity: 0, translateY: 3 }
 }
+
+const imageVariants = {
+    hidden: { opacity: 0, scale: 0.8 },
+    visible: { opacity: 1, scale: 1, transition: { duration: 1 } }
+}
+
 interface ProjectReuseableType {
     image: string
     heading: string
@@ -25,13 +31,21 @@ const ProjectReuseable = ({ image, heading, title, description, order, url }: Pr
 
     return (
         <section className={`text-white px-12  md:flex ${order && 'flex-row-reverse'} items-center gap-x-32 min-h-[80vh]`}>
-            <div><img src={image} alt="umar side pic" className="px-24 md:px-12 max-[100%] md:max-w-[25vw] max-h-[50vh] rounded-xl transition-all hover:scale-105" /></div>
             <motion.div
                 ref={ref}
                 initial="hidden"
                 animate={controls}
+                variants={imageVariants}
+            >
+                <img src={image} alt="umar side pic" className="px-24 md:px-12 max-[100%] md:max-w-[25vw] max-h-[50vh] rounded-xl transition-all hover:scale-105" />
+            </motion.div>
+            <motion.div
+                initial="hidden"
+                animate={controls}
                 variants={reuseableProjectVariants}
                 className="flex flex-col space-y-4 max-w-[30rem]">
+                {/* Use a separate ref for text animation if image and text need to animate independently */}
+                {/* For now, using the same ref and controls for both */}
                 <h3 className="text-gray-600 uppercase">{heading}</h3>
                 <h1 className="capitalize text-left text-2xl lg:text-4xl z-100 font-semibold">{title}</h1>
                 <p className="capitalize text-gray-400 text-md lg:text-lg">{description}</p>
